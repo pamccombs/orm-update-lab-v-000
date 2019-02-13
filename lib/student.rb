@@ -60,7 +60,7 @@ class Student
     SET name = ?, 
     grade = ? 
     WHERE id = ?"
-    DB[:conn].execute(sql, self.name, self.grade, self.id
+    DB[:conn].execute(sql, self.name, self.grade, self.id)
   end
 
 
